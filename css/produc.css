@@ -1,0 +1,92 @@
+header{
+    background-color: #292525;
+    padding: 20px 0;
+
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top:110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+color: #fdd90a; 
+text-decoration: underline;
+}
+.logo{
+    border-radius: 5px;
+}
+.produc{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.produc li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /* background: #cccccc; */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+.produc li:hover{
+    color: #695a0b; 
+    border: 3px solid #e0c217;
+}
+.produc li:active{
+    border: 3px solid #e0c217;   
+}
+
+.produc img{
+    width: 250px;
+    height: 250px;
+}
+.produc h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produc li:hover h2{
+    font-size: 33px;
+}
+.p_descripcion{
+    font-size: 18px;
+}
+.p_precio{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(/img/footer.jpg);
+    padding: 20px;
+
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 10px;
+}
