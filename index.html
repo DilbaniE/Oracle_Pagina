@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title> Bareria Alura</title>
     
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <h1 class="titulo-uno">Barber <em>DILBANI</em> </h1>
-                <img  id="banner" src="./img/banner.jpg" alt="">
-            </div>
-            
-        </nav>
+        <div class="caja">
+            <h1><img class="logo" src="/img/logo.jpg" alt="logo"></h1>
+            <nav> 
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <li><a href="produc.html">Product</a></li>
+                    <li><a href="contact.html">Contac</a></li>
+                </ul>
+            </nav>
     </header>
+
+    <img  class="banner" src="./img/banner.jpg" alt=""> 
+
     <main>
-        <div class="bloque1">
-            <h2>Sobre la Barber <em>Dilbani</em></h2>
+        <section class="bloque1">
+            <h2 class="titulo-uno">Sobre la Barber <em>DILBANI <i class="bi bi-scissors"></i></em></h2>
+
+            <img  class="utiles" src="/img/utiles.jpg" alt="Utiles">
 
             <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
             
@@ -28,25 +41,36 @@
             
             <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
             
-        </div>
+        </section>
 
-        <div class="bloque2">
-            <h3>Diferenciales</h3>
+        <section class="mapa">
+            <h3 class="titulo-uno">Nuestra <i class="bi bi-geo-alt"> </i> Ubicacion</h3>
+            <p>Nuestra ubicacion esta cerca de la estacion Villa Linda </p>
+            <div class="mapa_cont">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31723.832665895276!2d-75.57354109350204!3d6.331922298104973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442fa6958e1777%3A0x837c07a666cf50f0!2sBello%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1685382114860!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
 
-            <ul>
-                <li class="lista"> - Atencion personalizado a los clientes</li>
-                <li class="lista">- Espacio deferenciado</li> 
-                <li class="lista">- Localizacion</li> 
-                <li class="lista">- Profecionales</li>
-            </ul>
-
-            <img src="/img/img1.jpg" alt="">
-        </div>
-   
+        <section class="bloque2">
+            <h3 class="titulo-uno" > <i class="bi bi-person-bounding-box"> </i>Diferenciales</h3>
+            <div class="conten_diferencial">
+                <ul class="lis_diferen">
+                    <li class="lista"> - Atencion personalizado a los clientes</li>
+                    <li class="lista">- Espacio deferenciado</li> 
+                    <li class="lista">- Localizacion</li> 
+                    <li class="lista">- Profecionales Calificados</li>
+                    <li class="lista">- Puntualidad</li>
+                    <li class="lista">- Limpieza</li>
+                </ul><img class="imgdiferen" src="/img/img1.jpg" alt="corte">
+            </div>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/RyFzsT5PfBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>        
     </main>
     <footer>
-       
-       
+        <img  src="/img/fondo.jfif" alt="">
+        <p class="copyright">&copy CopyrightBarberia Dilbani- 2023</p>
     </footer>
 </body> 
 </html>
